@@ -1,0 +1,18 @@
+根据text_data_4建立的数据集，但是由于在提取图像object与place的时候用的是长度大于等于5的首次处理的数据（text_data_old_5），
+因此数据是不匹配的，all_anno_json相较于text_data_4数据缺少一部分，id保存在json_no_text_data_new中
+
+
+train_data:
+the number of len(text)=4 is： 4792
+the avg length of data is: 16.186092698790993
+the max length of data is: 100
+
+val_data:
+the number of len(text)=4 is： 621
+the avg length of data is: 16.05909317389138
+the max length of data is: 100
+
+test_data:
+the number of len(text)=4 is： 602
+the avg length of data is: 16.1262058677275
+the max length of data is: 100
